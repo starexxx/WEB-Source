@@ -1,0 +1,17 @@
+{
+  "name": "WEB-Source",
+  "version": "1.0.0",
+  "description": "API for previewing website content and fetching HTML, CSS, JS",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "axios": "^1.3.3",
+    "cheerio": "^1.0.0-rc.12",
+    "express": "^4.18.2"
+  },
+  "engines": {
+    "node": "22.x"
+  }
+}
