@@ -19,5 +19,6 @@ This Node.js application provides two endpoints to fetch and analyze webpage con
   - Extracts inline and external JavaScript
   - Can return combined code or filtered by type
 - **Examples**:
-  - All code: `http://localhost:3000/script?url=https://example.com`
-  - Only HTML: `http://localhost:3000/script?url=https://example.com&source=
+  - All code: `http://localhost:3000/source?url=https://example.com`
+  - Other: `http://localhost:3000/source?url=https://example.com&source=CSS`
+  - Only HTML: `http://localhost:3000/source?url=https://example.com&source=`
