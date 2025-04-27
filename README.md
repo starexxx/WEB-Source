@@ -4,12 +4,12 @@ This Node.js application provides two endpoints to fetch and analyze webpage con
 
 ## Endpoints
 
-### 1. `/view`
+### 1. iFrame (Optional)
 - **Purpose**: Fetch and display the complete HTML of a webpage
 - **Parameter**: `url` (required) - The URL of the webpage to fetch
 - **Example**: `http://localhost:3000/iframe?url=https://example.com` (Optional)
 
-### 2. `/source`
+### 2. Source
 - **Purpose**: Extract and combine HTML, CSS, and JavaScript code from a webpage
 - **Parameters**:
   - `url` (required) - The URL of the webpage to analyze
